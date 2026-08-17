@@ -9,7 +9,7 @@ export default function Projects() {
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
+          viewport={{ amount: 0.3 }}
           transition={{ duration: 0.5 }}
           className="text-3xl md:text-4xl font-bold text-black dark:text-white mb-10"
         >
@@ -21,7 +21,7 @@ export default function Projects() {
               key={project.id}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
+              viewport={{ amount: 0.3 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               <ProjectCard project={project} />
