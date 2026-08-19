@@ -126,18 +126,28 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
+import CursorGlow from "./components/CursorGlow";
+import Certifications from "./components/Certifications";
+import WhatsAppButton from "./components/WhatsAppButton";
+import Footer from "./components/Footer";
 function App() {
   // const { theme, toggleTheme } = useTheme();
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
+      <WhatsAppButton />
       <Navbar />
       {/* sections will go here */}
       <Hero />
       <About />
-
-      <Projects />
       <Skills />
+      <Projects />
+      <Experience />
+      <Certifications />
+      <Contact />
+      <CursorGlow />
+      <Footer />
     </div>
   );
 }

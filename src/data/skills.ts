@@ -1,5 +1,4 @@
 import type { SkillGroup } from "../types";
-
 export const skills: SkillGroup[] = [
   {
     category: "Languages",

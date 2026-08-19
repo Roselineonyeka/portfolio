@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { skills } from "../data/skills";
+import { SkillIcon } from "../data/skillIcons";
 
 export default function Skills() {
   return (
@@ -12,7 +13,7 @@ export default function Skills() {
           transition={{ duration: 0.5 }}
           className="text-3xl md:text-4xl font-bold text-black dark:text-white mb-10"
         >
-          Skills
+          TECH STACK
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {skills.map((group, index) => (
@@ -30,10 +31,18 @@ export default function Skills() {
               </h3>
               <div className="flex flex-wrap gap-2">
                 {group.items.map((item) => (
+                  // <span
+                  //   key={item}
+                  //   className="text-sm px-3 py-1.5 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200"
+                  // >
+                  //   {item}
+                  // </span>
+
                   <span
                     key={item}
-                    className="text-sm px-3 py-1.5 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200"
+                    className="flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200"
                   >
+                    <SkillIcon name={item} />
                     {item}
                   </span>
                 ))}

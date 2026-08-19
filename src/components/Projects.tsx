@@ -13,7 +13,7 @@ export default function Projects() {
           transition={{ duration: 0.5 }}
           className="text-3xl md:text-4xl font-bold text-black dark:text-white mb-10"
         >
-          Projects
+          FEATURED WORK
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {projects.map((project, index) => (
