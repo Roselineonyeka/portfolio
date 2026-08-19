@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
-
+import linkedinIcon from "../assets/linkedin.svg";
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -150,11 +150,7 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-5 py-2 rounded-full border border-gray-300 dark:border-gray-700 text-black dark:text-white font-medium text-sm hover:bg-gray-100 dark:hover:bg-gray-800 hover:scale-105 active:scale-95 transition-all duration-200"
           >
-            <img
-              src="/src/assets/linkedin.svg"
-              alt="LinkedIn"
-              className="w-4 h-4"
-            />
+            <img src={linkedinIcon} alt="LinkedIn" className="w-4 h-4" />
             LinkedIn
           </a>
         </motion.div>
