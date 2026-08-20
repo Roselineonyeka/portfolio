@@ -62,7 +62,7 @@ export const projects: Project[] = [
       "A keyboard-playable drum machine built with React, with two switchable sound banks and volume control.",
     tags: ["HTML", "CSS", "JavaScript", "React"],
     image: drumMachineImg,
-    liveUrl: "https://example.com", // ← replace once deployed, see note below
+    liveUrl: "https://drum-machine-one-orcin.vercel.app/", // ← replace once deployed, see note below
     repoUrl: "https://github.com/Roselineonyeka/drum-machine",
   },
 ];
