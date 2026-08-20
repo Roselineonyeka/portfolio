@@ -82,7 +82,7 @@ export default function Hero() {
               Get in touch
             </a>
             <a
-              href="/Roseline_Onyeka_resume.pdf"
+              href="/Roseline_Onyeka_CV.pdf"
               download
               className="flex items-center gap-2 px-5 py-2 rounded-full border border-gray-300 dark:border-gray-700 text-black dark:text-white font-medium text-sm hover:bg-gray-100 dark:hover:bg-gray-800 hover:scale-105 active:scale-95 transition-all duration-200"
             >

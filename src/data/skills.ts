@@ -9,7 +9,9 @@ export const skills: SkillGroup[] = [
     items: [
       "React",
       "React Native",
+      "ASP.NET (Web Forms)",
       ".NET MAUI",
+      "ASP.NET Core",
       "Tailwind CSS",
       "Bootstrap",
       "Sass/SCSS",

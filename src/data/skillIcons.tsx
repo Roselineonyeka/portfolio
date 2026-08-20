@@ -13,6 +13,8 @@ interface IconEntry {
 const iconMap: Record<string, IconEntry> = {
   HTML: { slug: "html5", color: "E34F26" },
   CSS: { localSrc: css3Icon },
+  "ASP.NET Core": { slug: "dotnet", color: "512BD4" },
+  "ASP.NET (Web Forms)": { slug: "dotnet", color: "512BD4" },
   JavaScript: { slug: "javascript", color: "F7DF1E" },
   TypeScript: { slug: "typescript", color: "3178C6" },
   "C#": { fallback: <Hash size={14} />, fallbackColor: "#239120" },
